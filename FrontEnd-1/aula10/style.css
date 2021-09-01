@@ -1,0 +1,34 @@
+.box {
+    width: 1280px ;
+    height: 720px;
+    background-image: url('https://images.hdqwalls.com/download/miles-morales-pixel-art-t5-1280x720.jpg');
+    text-align: center;
+    
+    
+    
+
+}
+
+h1 {
+    color: gold;
+    padding: 100px 0 ;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    color: gold;
+    padding: 100px 0 ;
+    box-sizing: border-box;
+
+}
+
+button {
+    
+   background-color: darkseagreen;
+   color: rgb(76, 73, 97);
+   border-radius: 50px;
+   padding: 20px;  
+
+}
+
