@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+
+        <img class="business" src="https://static.goomer.app/stores/58077/products/mobile_menu/templates/83248/logo_v1597970384.png" alt="Logo">
+         
+        <h1>
+            Faça seu pedido!
+        </h1>
+
+        
+
+        <fieldset >
+             <legend>Monte seu Bolo</legend>
+
+             <img class="cake" src="https://img.freepik.com/fotos-gratis/bolo-de-frutas-de-sobremesa_144627-10487.jpg?size=626&ext=jpg" alt="Imagem bolo">
+
+            <div>
+                <h3>Qual tamanho?</h3>
+                <input type="radio" name="size" id="size">
+                <label for="size">200 gramas (pedaço)</label>
+                <input type="radio" name="size" id="size2">
+                <label for="size2">500 gramas </label>
+                <input type="radio" name="option" id="size3">
+                <label for="size3">1 kilo</label>
+            </div>
+
+            <div>
+                <h3>Qual sabor?</h3>
+
+                <label for="taste">Sabores</label>
+                <select name="taste" id="taste">
+                    <option value="1">Chocolate</option>
+                    <option value="2">Baunilha</option> 
+                    <option value="3">Coco</option>
+                    <option value="4">Cenoura</option>                          
+            
+                </select>
+
+
+            </div>
+
+            <div>
+                <h3>Qual Cobertura?</h3>
+                <input type="radio" name="cover" id="cover">
+                <label for="cover">Bricadeiro</label>
+                <input type="radio" name="cover" id="cover2">
+                <label for="cover2">Nutella </label>
+                <input type="radio" name="cover" id="cover3">
+                <label for="cover3">Coco ralado</label>
+                <input type="radio" name="cover" id="cover4">
+                <label for="cover4"> Nenhuma</label>               
+
+
+            </div>
+
+            <div>
+                <h3>Qual recheio?</h3>
+                <input type="radio" name="filling" id="filling">
+                <label for="filling">Coco</label>
+                <input type="radio" name="filling" id="filling2">
+                <label for="filling2">Nutella </label>
+                <input type="radio" name="filling" id="filling3">
+                <label for="filling3">Creme de Morango</label>
+                <input type="radio" name="filling" id="filling4">
+                <label for="filling4"> Nenhum</label>   
+            </div>
+
+            <div class="textcomments">
+                <label  for="comments">Observações</label>
+                <div>
+                    <textarea placeholder="Observações no pedido" name="comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+            
+            </div>
+
+
+        </fieldset>
+
+        <fieldset class="formpay">
+            <legend>Escolha a forma de pagamento</legend>
+
+            <img class="cartao" src="https://www.pngkey.com/png/detail/87-870355_carto-visa-e-master-png-clipart-visa-logo.png" alt=" Cartoes de crédito">
+            <img src="https://logodownload.org/wp-content/uploads/2018/05/picpay-logo-1.png" alt="pic pay">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_-_pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.png/640px-Logo_-_pix_powered_by_Banco_Central_%28Brazil%2C_2020%29.png" alt=" pagamento pix">
+
+            <label for="payment">Opções :</label>
+                <select name="payment" id="payment">
+                    
+                        <option value="1">Cartão Crédito</option>
+                        <option value="2">Pic Pay</option>
+                        <option value="3">Pix</option>
+                        <option value="4">Na entrega</option>                   
+                                   
+
+                </select>
+
+
+        </fieldset>
+
+        <fieldset class="address">
+           <legend>Endereço de entrega</legend>
+
+           <img src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_288,h_196/https://anoregrs.org.br/wp-content/uploads/2021/02/logo-endereco.png" alt="Logo endereço">
+
+           <div>
+                <label for="city">Cidades</label>
+                 <select name="city" id="city">
+                    <optgroup label="Goiás">
+                        <option value="1">Catalão</option>
+                        <option value="2">Goiânia</option> 
+                        <option value="3">Anapolis</option>
+                        <option value="4">Jatai</option> 
+                    </optgroup>
+                    <optgroup label="Distrito Federal">
+                        <option value="1">Brasilia</option>
+                        <option value="2">Sobradinho</option> 
+                        <option value="3">Gama</option>
+                        <option value="4">Taguatinga</option> 
+                    </optgroup>
+
+                    <optgroup label="Minas Gerais">
+                        <option value="1">Uberlandia</option>
+                        <option value="2">Araguari</option> 
+                        <option value="3">Uberaba</option>
+                        <option value="4">Patos de Minas</option> 
+                    </optgroup>
+                                                    
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="comments">Endereço Completo:</label>
+                <div>
+                    <textarea placeholder="Dados endereço" name="comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+
+            </div>
+
+
+        </fieldset>
+
+        <button type="submit">Finalizar pedido</button>
+        <button type="reset">Apagar pedido</button>
+
+    </form>
+    
+</body>
+</html>
