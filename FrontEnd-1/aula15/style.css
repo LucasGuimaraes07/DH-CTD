@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hover, first-letter, focus,checked,nth-child,disabled, enabled */
+
+::selection {
+    color: gold;
+    background-color: red;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: blue;
+
+}
+h1:hover{
+
+    color: violet;
+    font-size: 50px;
+}
+
+a {
+    border: 2px solid black;
+    color: yellow;
+    
+}
+
+
+a:visited {
+
+    color: purple;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+p::first-letter {
+
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+
+.box {
+    background: pink;
+    height: 80px;
+    width: 80px;
+}
+  
+.box:empty {
+    background: lime;
+}
+
+form{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+
+
+}
+
+
+input {
+
+    background-color: whitesmoke;
+    border: none;
+    border: 1px solid;
+
+}
+
+input:hover {
+
+    padding: 5px;
+   
+
+}
+
+input:focus {
+
+    background-color: rgb(163, 187, 231);
+
+}
+
+input:valid {
+
+    border-color: green;
+
+}
+
+input:invalid {
+
+    border-color: red;
+}
+
+input:enabled {
+    color: #2b2;
+  }
+  
+input:disabled {
+    background-color: red;
+    color: gray;
+}
+
+.checkbox{
+
+    transition-duration: .5s;
+}
+.checkbox:checked {
+    transform: scale(1.5);
+    transform: skew(180deg);
+    
+}
+
+section {
+
+    display: flex;
+    flex-direction: column;
+  
+    gap: 5px;
+   
+
+}
+
+button{
+    width: 200px;
+    background-color: white;
+    font-weight: bolder;
+}
+
+button:nth-child(2n) {
+
+   color: red;
+   
+    
+}
